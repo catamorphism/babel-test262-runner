@@ -11,13 +11,14 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@octokit/core": "^6.1.4",
+    "@tap-format/parser": "^0.2.1",
     "@babel/core": "^7.25.2",
     "@babel/plugin-proposal-decorators": "^7.24.7",
     "@babel/plugin-proposal-explicit-resource-management": "^7.24.7",
     "@babel/plugin-syntax-import-attributes": "^7.24.7",
+    "@babel/plugin-transform-explicit-resource-management": "^7.24.7",
     "@babel/preset-env": "^7.25.4",
-    "@octokit/core": "^6.1.4",
-    "@tap-format/parser": "^0.2.1",
     "compressing": "^1.10.4",
     "core-js-bundle": "^3.42.0",
     "eshost": "^9.0.0",
@@ -25,7 +26,10 @@
     "jest-worker": "^29.1.2",
     "lmdb": "^3.4.0",
     "make-tap-output": "^2.0.0",
+    "swc": "^1.0.11",
     "tap-merge": "^0.3.1",
-    "test262-stream": "^1.4.0"
+    "test262-stream": "^1.4.0",
+    "tsc": "^2.0.4",
+    "typescript": "^5.9.3"
   }
 }
